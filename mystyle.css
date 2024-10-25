@@ -1,0 +1,174 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: pink;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    color: pink;
+    text-align: center;
+    font-size: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+
+.intro-text {
+    width: 60%;
+}
+
+.intro img {
+    border-radius: 300px;
+}
+
+.buttons {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: pink;
+    border: 2px solid pink; /* Add border */
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+section {
+    background-color: black;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-2 {
+    width: 80%;
+    margin: 30px auto;
+    border: 5px solid pink; /* Add border around sections */
+    border-radius: 20px;
+}
+h2 {
+    color: pink; /* Black color */
+    text-align: center; /* Center alignment */
+    font-size: 35px; /* Font size for paragraphs */
+}
+
+ul {
+    text-align: justify; /* Center alignment */
+    font-size: 25px; /* Font size for paragraphs */
+}
+
+.ul-1 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.skills img {
+    width: 50px;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .intro-text {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+table {
+    width: 90%; 
+    border-collapse: collapse; 
+    margin: 20px auto; 
+    font-size: 20px;
+    color: pink;
+}
+
+td {
+    border: 1px solid #fff; 
+    padding: 10px; 
+    text-align: center; 
+    background-color: black    
+}
+
+.td-1 {
+    font-size: 20px;
+}
+
+td:nth-child(even) {
+    background-color: black;
+}
+
+.image-container {
+    display: flex; /* Use Flexbox to align items in a row */
+    justify-content: space-around; /* Space images evenly */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    margin: 20px auto; /* Center the container */
+    max-width: 1000px; /* Optional: set a max width */
+}
+
+.image-item {
+    text-align: center; /* Center text below images */
+    margin: 10px; /* Space between items */
+}
+
+.responsive-image {
+    width: 200px; /* Makes the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+}
+
+.p-1 {
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers items horizontally */
+    margin-top: 20px; /* Optional: Adds space above */
+}
+
+.border-link {
+    display: inline-block; /* Allows padding and border to be applied */
+    margin: 0 30px;
+    padding: 10px 15px;
+    border: 2px solid pink;
+    border-radius: 5px;
+    color: pink;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 20px;
+}
+
+.border-link:hover {
+    background-color: pink; /* Changes background color on hover */
+    color: #fff; /* Changes text color on hover */
+}
