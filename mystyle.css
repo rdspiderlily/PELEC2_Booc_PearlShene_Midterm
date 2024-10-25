@@ -46,7 +46,7 @@ button {
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     color: pink;
-    border: 2px solid pink; /* Add border */
+    border: 2px solid pink;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
@@ -68,18 +68,18 @@ section {
 .section-2 {
     width: 80%;
     margin: 30px auto;
-    border: 5px solid pink; /* Add border around sections */
+    border: 5px solid pink;
     border-radius: 20px;
 }
 h2 {
-    color: pink; /* Black color */
-    text-align: center; /* Center alignment */
-    font-size: 35px; /* Font size for paragraphs */
+    color: pink;
+    text-align: center;
+    font-size: 35px;
 }
 
 ul {
-    text-align: justify; /* Center alignment */
-    font-size: 25px; /* Font size for paragraphs */
+    text-align: justify;
+    font-size: 25px;
 }
 
 .ul-1 {
@@ -127,22 +127,22 @@ td:nth-child(even) {
 }
 
 .image-container {
-    display: flex; /* Use Flexbox to align items in a row */
-    justify-content: space-around; /* Space images evenly */
-    align-items: center; /* Center items vertically */
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-    margin: 20px auto; /* Center the container */
-    max-width: 1000px; /* Optional: set a max width */
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin: 20px auto; 
+    max-width: 1000px; 
 }
 
 .image-item {
-    text-align: center; /* Center text below images */
-    margin: 10px; /* Space between items */
+    text-align: center; 
+    margin: 10px;
 }
 
 .responsive-image {
-    width: 200px; /* Makes the image responsive */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px; 
+    height: auto; 
     border-radius: 50%;
 }
 
@@ -151,13 +151,13 @@ td:nth-child(even) {
 }
 
 .flex-container {
-    display: flex; /* Enables flexbox layout */
-    justify-content: center; /* Centers items horizontally */
-    margin-top: 20px; /* Optional: Adds space above */
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
 }
 
 .border-link {
-    display: inline-block; /* Allows padding and border to be applied */
+    display: inline-block;
     margin: 0 30px;
     padding: 10px 15px;
     border: 2px solid pink;
@@ -169,6 +169,6 @@ td:nth-child(even) {
 }
 
 .border-link:hover {
-    background-color: pink; /* Changes background color on hover */
-    color: #fff; /* Changes text color on hover */
+    background-color: pink;
+    color: #fff;
 }
